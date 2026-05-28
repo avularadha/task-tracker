@@ -107,7 +107,7 @@ const filteredTasks = tasks.filter(task => {
         
         <input
           type="text"
-          placeholder="Search tasks..."
+          placeholder="Search Tasks..."
           className="search-input"
           value={search}
           onChange={(e)=>setSearch(e.target.value)}
